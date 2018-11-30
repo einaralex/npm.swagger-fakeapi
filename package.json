@@ -25,11 +25,11 @@
     "test": "NODE_ENV=test nyc --reporter=text --reporter=html ava"
   },
   "dependencies": {
+    "@icelandair/swagger-server": "^1.0.0",
     "array-range": "^1.0.1",
     "express": "^4.14.0",
     "faker": "~4.1.0",
     "glob": "^7.0.5",
-    "swagger-server": "^1.0.0-alpha.18",
     "xorshift": "^0.2.0"
   },
   "devDependencies": {
